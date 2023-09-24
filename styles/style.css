@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  font-family: SF Pro Display,Arial, Helvetica, sans-serif;
+}
+
+.header {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #FBFBFD;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.top-bar {
+  flex: 1;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  margin-right: 48px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.header .icon {
+  margin-right: 48px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.header a {
+  margin-right: 48px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: black;
+}
+
+.sale-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hyperlink {
+  color: #418dda;
+  transition: text-decoration 0.15s;
+  cursor: pointer;
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
+}
+
+#blue {
+  color: #418dda;
+}
+
+
+
+.title {
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.flinks {
+  margin-bottom: 12px;
+  transition: text-decoration 0.15s;
+}
+
+.flinks:hover {
+  text-decoration: underline;
+}
+
+.frequent-links {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col1 {
+  flex: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.col2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.col3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.col4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.col5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.watch-post {
+  height: 650px;
+  background-color: black;
+  background-image: url(../assets/images/hero-apple-watch.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.content-watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 10%;
+}
+
+.watch {
+  width: 230px;
+}
+
+.watch-moto {
+  margin-top: 25px;
+  font-size: 32px;
+  color: white;
+}
+
+.offer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.row-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.row-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.post-1 {
+  width: 100%;
+  background-color: #FBFBFD;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 8px 0px 0px 8px;
+  border-radius: 5px;
+}
+
+.post-1 .links {
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+}
+
+.content-1 {
+  position: relative;
+  top: 20%;
+}
+
+.content-2 {
+  position: relative;
+  top: 20%;
+}
+
+.content-3 {
+  position: relative;
+  top: 20%;
+}
+
+.content-4 {
+  position: relative;
+  top: 20%;
+}
+
+.content-5 {
+  position: relative;
+  top: 20%;
+}
+
+.content-6 {
+  position: relative;
+  top: 20%;
+}
+
+.post-2 {
+  background-color: #FBFBFD;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 8px 8px 0px 8px;
+  border-radius: 5px;
+}
+
+.post-2 .links {
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+}
+
+.post-3 {
+  background-color: #FBFBFD;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 8px 0px 8px 8px;
+  border-radius: 5px;
+}
+
+.post-3 .links {
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+}
+
+.post-4 {
+  background-color: #F5F5F7;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 0px 8px 0px 8px;
+  border-radius: 5px;
+}
+
+.post-4 .links {
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+}
+
+.post-5 {
+  background-color: #FAFAFA;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 0px 8px 0px 8px;
+  border-radius: 5px;
+}
+
+.post-5 .links {
+  width: 25%;
+  margin-right: 37.5%;
+  margin-left: 37.5%;
+}
+
+.post-6 {
+  background-image: url(../assets/images/trade-img.jpg);
+  /* background-color: #FBFBFD; */
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 630px;
+  text-align: center;
+  margin: 0px 8px 0px 0px;
+  border-radius: 5px;
+}
+
+.post-6 .links {
+  text-align: center;
+  width: 45%;
+  margin-left: 34.5%;
+}
+
+.promo-specs {
+  height: 650px;
+  background-color: #F5F5F7;
+  background-image: url(../assets/images/promo-specs.jpg);
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.content-e {
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+
+.phone-name-n {
+  font-weight: bold;
+  font-size: 62px;
+}
+
+.phone-moto {
+  font-size: 32px;
+}
+
+.promo-post-pro {
+  height: 650px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  cursor: pointer;
+  height: 100%;
+}
+
+.hero {
+  height: 100%;
+}
+
+.post-content {
+  position: relative;
+  text-align: center;
+  right: 25%;
+  bottom: 29%;
+  color: white;
+  cursor: pointer;
+}
+
+.phone-name {
+  cursor: pointer;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.post-moto {
+  cursor: pointer;
+  font-size: 36px;
+  margin-top: 14px;
+}
+
+.links-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  cursor: pointer;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links p {
+  font-size: 22px;
+  cursor: pointer;
+  color: #2790F4;
+}
+
+
+.blue {
+  transition: text-decoration 0.15s;
+}
+
+.blue:hover {
+  text-decoration: underline;
+}
