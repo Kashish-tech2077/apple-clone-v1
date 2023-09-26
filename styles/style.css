@@ -12,7 +12,10 @@
   padding: 20px;
   background-color: #FBFBFD;
   text-align: center;
-  margin-bottom: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 9000;
+}
 
 }
 
@@ -23,7 +26,7 @@
   width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -48,8 +51,9 @@
 
 .sale-info {
   text-align: center;
-  margin-top: 30px;
+  padding: 1rem 1rem;
 }
+
 
 .hyperlink {
   color: #418dda;
@@ -351,14 +355,15 @@
   font-size: 32px;
 }
 
-.promo-post-pro {
+.hero-section {
   height: 650px;
-  margin-top: 25px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: black;
+  /* margin-top: 25px; */
   margin-bottom: 20px;
 }
 
@@ -372,10 +377,8 @@
 }
 
 .post-content {
-  position: relative;
+  margin-top: 2.8rem;
   text-align: center;
-  right: 25%;
-  bottom: 29%;
   color: white;
   cursor: pointer;
 }
