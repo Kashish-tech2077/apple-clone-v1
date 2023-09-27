@@ -17,7 +17,6 @@
   z-index: 9000;
 }
 
-}
 
 .top-bar {
   flex: 1;
@@ -49,7 +48,7 @@
   color: black;
 }
 
-.sale-info {
+.section-sale-info {
   text-align: center;
   padding: 1rem 1rem;
 }
@@ -126,7 +125,7 @@
   flex-direction: column;
 }
 
-.watch-post {
+.apple-watch-section {
   height: 650px;
   background-color: black;
   background-image: url(../assets/images/hero-apple-watch.jpg);
@@ -157,13 +156,13 @@
   color: white;
 }
 
-.offer-column {
+.products-features-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.row-1 {
+.product-1 {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -172,7 +171,7 @@
   justify-content: space-around;
 }
 
-.row-2 {
+.product-2 {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -332,7 +331,7 @@
   margin-left: 34.5%;
 }
 
-.promo-specs {
+.product-specs-section {
   height: 650px;
   background-color: #F5F5F7;
   background-image: url(../assets/images/promo-specs.jpg);
